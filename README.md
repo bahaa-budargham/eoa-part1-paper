@@ -4,7 +4,7 @@
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-> A deterministic, training-free word representation with a strange reproducible property: the ratio of consecutive terms in its 43-term basis sequences stabilizes to ≈ 3.173 for the English primary encoding — for **every** letter name and **every** word. The number is **not a universal constant**. Across 5 encodings in 4 languages it shifts from **2.710 (Hebrew)** to **4.128 (Greek)** — a 1.5× spread. The theoretical explanation is **open**.
+> A deterministic, training-free word representation with a strange reproducible property: the ratio of consecutive terms in its basis sequences stabilizes after the 43rd iteration. For the English primary phonetic mapping, this limiting constant ratio (LCR) is approximately **3.037**. Under a different mapping, the LCR shifts to **2.689**. Under a third mapping, it is **3.355**. The number is **not a universal constant**. Across 5 encodings in 4 languages it shifts from **2.710 (Hebrew)** to **4.128 (Greek)** — a 1.5× spread. The theoretical explanation is **open**
 
 ![LCR variance across 5 encodings, 4 languages](https://github.com/bahaa-budargham/eoa-data/blob/main/figures/lcr_across_encodings.png)
 
