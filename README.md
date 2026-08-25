@@ -64,7 +64,7 @@ EOA materials are released on a tiered basis. See the table below for what is op
 - For academic collaborators, access to Tiers 1–4 is available under standard academic agreements that permit research use and publication of derived results with appropriate citation.
 - No agreement is required for Tier 0 materials.
 
-For access to Tiers 1 through 5, contact: **bdarghamneurolabs@gmail.com**
+For access to Tiers 1 through 5, contact: **bdarghamneurolabs(at)gmail.com**
 
 ---
 
