@@ -42,8 +42,7 @@ The 43-term sequences are available to qualified researchers under the terms des
 
 ## Disclosure Status
 
-Materials in this repository and related to the EOA Program are released under a graduated disclosure structure. The table below summarizes what is available, under what agreement, and for what purpose.
-
+EOA materials are released on a tiered basis. See the table below for what is open, restricted, or available by request.
 | Tier | Access | Agreement | Materials | Purpose |
 | :--- | :--- | :--- | :--- | :--- |
 | **0** | Public | None | Published papers, basis groupings, LCR values (3.037, 2.689, 3.173, 2.486, 3.306), benchmark code, Colab notebooks | Priority and scientific disclosure; fully verifiable empirical claims |
