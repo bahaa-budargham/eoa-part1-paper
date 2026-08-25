@@ -42,23 +42,30 @@ The 43-term sequences are available to qualified researchers under the terms des
 
 ## Disclosure Status
 
-**Public (this repository and the linked Colab notebook):**
+Materials in this repository and related to the EOA Program are released under a graduated disclosure structure. The table below summarizes what is available, under what agreement, and for what purpose.
 
-- The letter-name input strings for the five encodings.
-- The benchmark code, baselines, and evaluation pipeline.
-- The precomputed noisy-word vectors for the OCR experiment.
-- The empirical LCR measurements for 5 encodings across 4 languages.
-- The cross-encoding consistency experiment.
-- The hypothesis bank H1–H7.
+| Tier | Access | Agreement | Materials | Purpose |
+| :--- | :--- | :--- | :--- | :--- |
+| **0** | Public | None | Published papers, basis groupings, LCR values (3.037, 2.689, 3.173, 2.486, 3.306), benchmark code, Colab notebooks | Priority and scientific disclosure; fully verifiable empirical claims |
+| **1** | Restricted | DUA (Data Use Agreement) | 43‑term basis sequences (`english_alphabet_LCR3.173_v1.0.json`) | Independent verification of empirical claims; research use only, no redistribution, citation required |
+| **2** | Restricted | ELA (Evaluation License Agreement) + click-through ToS | Interactive playground (`eoa43-playground.html`) | Interactive testing; hosted, rate-limited, no scraping, no ML training on outputs |
+| **3** | Restricted | Research API License | Batch API (text file → CSV of sequences) | Bulk evaluation; named-user, rate-limited, no data extraction |
+| **4** | Restricted | MTA (Material Transfer Agreement) + Mutual NDA | Oracle binary (black-box callable) | Run on collaborator hardware; no source, no formula, anti-reverse-engineering clause, audit rights |
+| **5** | Restricted | TLA (Technology License Agreement) + optional JDA | Full operator beta and closed-form formula | Commercial or funded collaboration; royalties, equity, or lump sum; co-inventorship on resulting patents |
+| **6** | Future | TBD | Hypothesis bank H1–H7 | Will be released in a future paper or update |
 
-**Not public:**
+---
 
-- The 43‑term basis sequences (`english_alphabet.json`) – access restricted.
-- The interactive playground – access restricted.
-- The internal deterministic operator that produces the basis sequences.
-- The closed-form mapping from encoding properties to LCR (open question).
+### Notes
 
-A preliminary least-squares test of the natural linear hypothesis (v<sub>n+1</sub> = M · v<sub>n</sub>) yielded large reconstruction errors on the released sequences. The operator is made available to qualified research collaborators under research-protective terms. Contact the author for the agreement.
+- This graduated disclosure structure mirrors established practice at NIH (DUA), DeepMind AlphaFold (ELA/API), and pre-1997 RSA Laboratories (TLA).
+- The operator is withheld under a staged disclosure policy while its theoretical scope is being mapped.
+- Empirical claims (rank collapse, cross-encoding LCR variation, memory footprint) are fully verifiable from the released sequences and black-box oracle.
+- A full specification will be released once the encoding-to-LCR mapping is theoretically characterized.
+- For academic collaborators, access to Tiers 1–4 is available under standard academic agreements that permit research use and publication of derived results with appropriate citation.
+- No agreement is required for Tier 0 materials.
+
+For access to Tiers 1 through 5, contact: **bdarghamneurolabs@gmail.com**
 
 ---
 
