@@ -8,8 +8,7 @@
 > 
 ![LCR variance across 7 encodings, 4 languages](https://github.com/bahaa-budargham/eoa-data/blob/main/figures/figure1_pca_cumulative_variance.png)
 
-*The 16 distinct sequence vectors collapse to effective rank 1. PC1 captures more than 99 percent of the variance in the raw vectors, and more than 90 percent after standardization.*
----
+*The 16 distinct sequence vectors collapse to effective rank 1. PC1 captures more than 99 percent of the variance in the raw vectors, and more than 90 percent after standardization.*---
 
 **Papers:** [EOA-43 (Part I)](#citation) · [EOA Program, Part 0](https://github.com/bahaa-budargham/eoa-part0-paper) · [EOA Program Main Page](https://github.com/bahaa-budargham/engineering-of-alphabets)
 
