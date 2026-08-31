@@ -4,12 +4,11 @@
 
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-> A deterministic, training-free word representation with a strange reproducible property: the ratio of consecutive terms in its sequence vectors stabilizes after the 43rd iteration. For the English primary phonetic mapping, this limiting constant ratio (LCR) is approximately **3.306**. English modified #1 yields **3.037**, English modified #2 yields **3.173**, and English modified #3 yields **2.689**. Arabic gives **2.751**, Hebrew gives **2.710**, and Greek gives **4.128**. The number is **not a universal constant**. Across 7 encodings in 4 languages it shifts from **2.710 (Hebrew)** to **4.128 (Greek)**, a 1.5x spread. The theoretical explanation is **open**.
+> A deterministic, training-free word representation with a reproducible property: the ratio of consecutive terms in its sequence vectors stabilizes after the 43rd iteration. For the English modified #2 encoding used in this paper, the limiting constant ratio (LCR) is approximately 3.173. This ratio is constant across all 26 released sequences. The cross-encoding variation of the LCR is not part of this paper and will be treated in Part II.
+> 
+![LCR variance across 7 encodings, 4 languages](https://github.com/bahaa-budargham/eoa-data/blob/main/figures/figure1_pca_cumulative_variance.png)
 
-![LCR variance across 7 encodings, 4 languages](https://github.com/bahaa-budargham/eoa-data/blob/main/figures/lcr_across_encodings.png)
-
-*The English primary encoding bar sits at approximately 3.306. This value is encoding-dependent, not a universal constant.*
-
+*The 16 distinct sequence vectors collapse to effective rank 1. PC1 captures more than 99 percent of the variance in the raw vectors, and more than 90 percent after standardization.*
 ---
 
 **Papers:** [EOA-43 (Part I)](#citation) · [EOA Program, Part 0](https://github.com/bahaa-budargham/eoa-part0-paper) · [EOA Program Main Page](https://github.com/bahaa-budargham/engineering-of-alphabets)
